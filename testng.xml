@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<listeners>
+		<listener class-name="com.GoogleAssignment.ExtentReportListner.ExtentReporterNG" />
+		<listener class-name="Analyzer.RetryListenerClass" />
+
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="com.GoogleAssignment.Testcases.GoogleApps_Test" />
+			<class name="com.GoogleAssignment.Testcases.GmailTest" />
+			<class name="com.GoogleAssignment.Testcases.NewsPageTest" />
+			<class name="com.GoogleAssignment.Testcases.MapPageTest" />
+			<class name="com.GoogleAssignment.Testcases.GoogleDriveTest" />
+			<class name="com.GoogleAssignment.Testcases.TaseCases_008" />
+			<class name="com.GoogleAssignment.Testcases.HomeTestCase" />
+			<class name="com.GoogleAssignment.Testcases.YouTubeTest" />
+			<class name="com.GoogleAssignment.Testcases.TestCase_005" />
+			<class name="com.GoogleAssignment.Testcases.LoginMyAccountTest_004" />
+			<class name="com.GoogleAssignment.Testcases.TestCase_007" />
+			<class name="com.GoogleAssignment.Testcases.SearchPageTest" />
+			<class name="com.GoogleAssignment.Testcases.PlayPageTest" />
+			<class name="com.GoogleAssignment.Testcases.PhotoPageTest" />
+			<class name="com.GoogleAssignment.Testcases.MyAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
